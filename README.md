@@ -58,8 +58,9 @@ Welke stappen kun je zetten om tot de uitwerking van deze game te komen. De moge
 - In deze stap laten we de bal over het scherm bewegen.
     - mag niet uit het spel verdwijnen
 
-
-
-
+### 03 branch stap_03_botsing_batje
+- In deze stap laten we de bal over het scherm bewegen en botsen met de batjes.
+    - mag niet uit het spel verdwijnen
+    - moet van richting veranderen als een batje wordt geraakt.
 
 
