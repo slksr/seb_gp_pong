@@ -63,4 +63,9 @@ Welke stappen kun je zetten om tot de uitwerking van deze game te komen. De moge
     - mag niet uit het spel verdwijnen
     - moet van richting veranderen als een batje wordt geraakt.
 
-
+### 04 branch stap_04_obstakel
+- In deze stap tekenen we het obstakel in het speelveld en laten de bal botsen
+  - moet tussen de batjes staan, binnen het scherm
+  - moet op een willekeurige plaats worden getekend.
+  - bal moet van richting veranderen bij botsing
+  - obstakel opnieuw bepalen na botsing bal
