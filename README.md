@@ -7,7 +7,7 @@ De naam Pong is afgeleid van pingpong. Het spel werkt met twee batjes en een bal
 ## SEB GP 
 
 Op basis van deze traditionele opzet gaan we voor SEB GP een aantal moeilijkheiden toevoegen.
-In het speelveld wordt een blok bepaald waar de bal tegenaan kan vliegen. Als deze aan de zijkant komt wordt er een punt bij de actieve speler opgeteld en veranderd de grote en positie naar een andere plek in het speelveld.
+In het speelveld wordt een blok geplaatst waar de bal tegenaan kan vliegen. Als deze 3 maal is geraakt wordt er een punt bij de actieve speler opgeteld en veranderd de grote en positie van het blok naar een andere plek in het speelveld.
 
 ### Prioritering
 
@@ -26,8 +26,8 @@ methode.
 |FR04   |De bal kan niet uit het spel verdwijnen. |M |
 |FR05   |De bal heeft een natuurlijke beweging.| M|
 |FR06   |Er bevindt zich 1 rechthoekig opstakel in het spel. | M |
-|FR07   |Als de bal de linker of rechterzijkant raakt, krijgt de actieve speler een punt. | M |
-|FR08   |Als de bal de linker of rechterzijkant raakt, veranderd de positie en afmeting van het obstakel. | M |
+|FR07   |Als de bal het opstakel raakt, krijgt na de derde keer de actieve speler een punt. | M |
+|FR08   |Als de bal de derde keer het opstakel raakt, veranderd de positie en afmeting van het obstakel en staat de raakteller weer op 0. | M |
 |FR09   |De speler die de bal het laatst heeft geraakt wordt de actieve speler. | M |
 |FR10   |Het spel eindigt als een speler als eerste 10 punten heeft gehaald. |M |
 |FR11   |Er is een eindscherm met de uiteindelijke uitslag en de mogelijkheid om opnieuw te beginnen. | S |
