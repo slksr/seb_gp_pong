@@ -54,6 +54,12 @@ Welke stappen kun je zetten om tot de uitwerking van deze game te komen. De moge
   - de score per speler. **int**
 - Teken de elementen (of een aantal) op het scherm
 
+### 02 branch stap_02_beweging_bal
+- In deze stap laten we de bal over het scherm bewegen.
+    - mag niet uit het spel verdwijnen
+
+
+
 
 
 
