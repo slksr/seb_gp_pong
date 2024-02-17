@@ -38,3 +38,22 @@ methode.
 ## Lessen
 Tijdens Lesweek 3 en Lesweek 4 gaan we dit spel opzetten en uitwerken.
 
+## Stappen
+Welke stappen kun je zetten om tot de uitwerking van deze game te komen. De mogelijke stappen die je kunt nemen zijn uitgewerkt per branch. De main brancht bevat de volledig uitgewerkte oplossing van MustHaves.
+
+### 01 branch stap01_elementen
+- In deze stap bepaal je welke elementen je nodig hebt in de game.
+  - bal 
+  - 2 spelers of 2 batjes
+  - obstakel
+  - iets om score bij te houden
+- Bepaal de kenmerken van de elementen om het datatype te kunnen bepalen.
+  - de bal heeft een afmeting en een positie. Beweegt in een bepaalde richting. **int[]**
+  - een batje heeft een afmeting, positie in het spel en een kleur. **int[]**
+  - obstakel heeft een afmeting en een willekeurige postitie in het spel. Maar niet waar een bal of batje staat. **int[]**
+  - de score per speler. **int**
+- Teken de elementen (of een aantal) op het scherm
+
+
+
+
