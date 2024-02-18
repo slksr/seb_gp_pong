@@ -1,12 +1,17 @@
 // constanten obstakel
 final int KLEUR_OBSTAKEL = #780000;
+final int MAX_HITS = 3;
 
-int[] obstakel = new int[4];
-
+int[] obstakel = new int[5];
+boolean isVernietigt = false;
 
 void tekenObstakel(int[] obstakel) {
     fill(KLEUR_OBSTAKEL);
     rect(obstakel[0],obstakel[1],obstakel[2],obstakel[3]);
+    fill(255);
+    textSize(24);
+    textAlign(CENTER, CENTER);
+    text(obstakel[4], obstakel[0] + (obstakel[2] / 2), obstakel[1] + (obstakel[3] / 2)); 
 }
 
 void maakObstakel() {
@@ -18,4 +23,20 @@ void maakObstakel() {
     obstakel[1] = yPos;
     obstakel[2] = breedte;
     obstakel[3] = hoogte;
+    obstakel[4] = MAX_HITS;
+}
+
+void obstakelIsGeraakt() {
+    obstakel[4]--;
+    if (obstakel[4] == 0) {
+        isVernietigt = true; 
+        maakObstakel();
+    }
+    else {
+        isVernietigt = false;
+    }    
+}
+
+boolean obstakelIsVernietigt() {
+    return isVernietigt;
 }

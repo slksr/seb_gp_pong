@@ -84,3 +84,9 @@ Welke stappen kun je zetten om tot de uitwerking van deze game te komen. De moge
   - tabblad Obstakel
 - *Deze stap kan ook later ook later* 
 
+### 07 branch stap_07_scores
+- In deze stap gaan we de scores bijhouden
+  - het obstakel moet 3x geraakt worden voordat een punt aan een speler kan worden toegekend
+  - alleen de actieve speler (batje) kan een punt scoren
+  - een speler wordt actief als de bal het batje heeft geraakt
+  - een speler kan maximaal 10 punten halen.
