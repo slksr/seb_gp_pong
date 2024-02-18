@@ -75,4 +75,12 @@ Welke stappen kun je zetten om tot de uitwerking van deze game te komen. De moge
    - een batje mag uit het speelveld verdwijnen
    - een batje moet met 1 toets naar rechts bewegen en met een andere toets naar links.
    - de twee batjes mogen niet dezelfde toetsen gebruiken.
-   
+
+### 06 branch stap_06_verantwoordelijkheden
+- de Pong.pde file heeft ondertussen al aardig veel code gekregen. De actie met de bal en batjes staat door elkaar waardoor het onoverzichtelijk dreigt te worden.
+- breng een betere structuur aan door tabbladen te introduceren waarin de verantwoordelijkheden worden gescheiden.
+  - tabblad Batje
+  - tabblad Bal
+  - tabblad Obstakel
+- *Deze stap kan ook later ook later* 
+
