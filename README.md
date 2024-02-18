@@ -39,7 +39,7 @@ methode.
 Tijdens Lesweek 3 en Lesweek 4 gaan we dit spel opzetten en uitwerken.
 
 ## Stappen
-Welke stappen kun je zetten om tot de uitwerking van deze game te komen. De mogelijke stappen die je kunt nemen zijn uitgewerkt per branch. De main brancht bevat de volledig uitgewerkte oplossing van MustHaves.
+Welke stappen kun je zetten om tot de uitwerking van deze game te komen. De mogelijke stappen die je kunt nemen zijn uitgewerkt per branch. De main branch bevat de volledig uitgewerkte oplossing van MustHaves.
 
 ### 01 branch stap01_elementen
 - In deze stap bepaal je welke elementen je nodig hebt in de game.
@@ -90,3 +90,24 @@ Welke stappen kun je zetten om tot de uitwerking van deze game te komen. De moge
   - alleen de actieve speler (batje) kan een punt scoren
   - een speler wordt actief als de bal het batje heeft geraakt
   - een speler kan maximaal 10 punten halen.
+
+## Vervolg
+Stap 01 tot en met 07 geeft een beeld hoe je een project kunt opbouwen als je nog geen ervaring hebt met het maken van softwareprogramma's.
+Misschien zijn sommige stappen nog te groot? Maak dan daar weer deelstappen van. 
+
+Nu je deze stappen gedaan hebt kun je gaan nadenken over het vervolg:
+  - code opschonen (refactoren)
+    - kun je de code optimaliseren in Bat.pde? Nu wordt elk batje nog apart benaderd, of kun je activebat beter gebruiken?
+    - wat als je nu meerdere opstakels wil?
+    - is de naam van Bat.pde wel zo handig?
+  - toepassen van enkele ShouldHaves
+    - FR12 zorgt ervoor dat je sommige constanten (final) niet meer kunt gebruiken.
+  - nieuwe requirements, bijvoorbeeld: 
+    - bijvoorbeeld spelen van sets
+    - meerdere ballen in het spel
+    - bal wordt kleiner en gaat sneller
+    - obstakel heeft een afweermechanisme.
+    - 3 AI spelers (2 verticaal)
+    - ...
+
+  
