@@ -69,3 +69,10 @@ Welke stappen kun je zetten om tot de uitwerking van deze game te komen. De moge
   - moet op een willekeurige plaats worden getekend.
   - bal moet van richting veranderen bij botsing
   - obstakel opnieuw bepalen na botsing bal
+
+### 05 branch stap_05_batjes_bewegen
+- In deze stap laten we de batjes horizontaal bewegen.
+   - een batje mag uit het speelveld verdwijnen
+   - een batje moet met 1 toets naar rechts bewegen en met een andere toets naar links.
+   - de twee batjes mogen niet dezelfde toetsen gebruiken.
+   

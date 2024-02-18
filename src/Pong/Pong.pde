@@ -15,6 +15,11 @@ final int BREEDTE_BAT = 200;
 final int HOOGTE_BAT = 20;
 final int BAT_A_Y = 60;
 final int BAT_B_Y = 720;
+final char RECHTS_BAT_A = 'c'; 
+final char LINKS_BAT_A = 'z';  
+final char RECHTS_BAT_B = '.';
+final char LINKS_BAT_B = ',';  
+
 
 // constanten obstakel
 final int KLEUR_OBSTAKEL = #780000;
@@ -37,7 +42,11 @@ void setup() {
 void draw() {
     background(255);
 
+    veranderBatPositie(RECHTS_BAT_A, LINKS_BAT_A, batA );
+    veranderBatPositie(RECHTS_BAT_B, LINKS_BAT_B, batB );
+
     beweegBal();
+
     raaktBalObject(batA, bal);
     raaktBalObject(batB, bal);
     boolean hit = raaktBalObject(obstakel, bal);
@@ -50,7 +59,11 @@ void draw() {
     tekenBat(batB, KLEUR_BAT_B);
     tekenObstakel(obstakel);
 }
- 
+
+void keyPressed() {
+    //println("key: " + key + " keyCode: " + keyCode);
+    beweegBatjes();
+} 
 
 void tekenBal(int[] bal) {
   fill(KLEUR_BAL);
@@ -148,4 +161,19 @@ void maakObstakel() {
     obstakel[1] = yPos;
     obstakel[2] = breedte;
     obstakel[3] = hoogte;
+}
+
+void veranderBatPositie(char rechterToets, char linkerToets, int[] bat) {
+    if (keyPressed && key == linkerToets) {    
+        bat[0] -= 1; 
+    }
+    if (keyPressed && key == rechterToets) { 
+        bat[0] += 1; 
+    }
+}
+
+void beweegBatjes() {
+    // lijkt erop dat de functie keyPressed() niet elke cycle wordt verwerkt.
+    // werkt wel goed voor toetsen met een keyCode zoals de pijltjes toetsen.
+    // afhankelijkheid met OS
 }
